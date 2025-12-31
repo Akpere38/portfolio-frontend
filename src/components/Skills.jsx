@@ -8,7 +8,7 @@ export default function Skills() {
 
   useEffect(() => {
     axios
-      .get('http://127.0.0.1:8000/api/skills/')
+      .get('https://backend-portfolio-el2x.onrender.com/api/skills/')
       .then(res => setSkills(res.data))
       .catch(err => console.log(err));
   }, []);

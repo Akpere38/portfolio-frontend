@@ -7,7 +7,7 @@ export default function Projects() {
 
   useEffect(() => {
     axios
-      .get('http://127.0.0.1:8000/api/projects/')
+      .get('https://backend-portfolio-el2x.onrender.com/api/projects/')
       .then(res => setProjects(res.data))
       .catch(err => console.log(err));
   }, []);

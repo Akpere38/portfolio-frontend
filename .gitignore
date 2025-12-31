@@ -32,3 +32,5 @@ __pycache__/
 *.pyd
 *.sqlite3
 .env
+node_modules/
+build/

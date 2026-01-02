@@ -8,7 +8,7 @@ export default function About() {
         <h2 className="about-title mb-4">About Me</h2>
 
         <p className="about-text mx-auto">
-          I design <strong>data-driven solutions</strong> and develop
+          I design <strong>data-driven solutions</strong>, develop
             <strong> scalable backend systems</strong> and
             <strong> interactive web applications</strong> using <strong>Python</strong>,
             <strong>Django</strong>, <strong>React</strong>, <strong>SQL</strong>, and <strong>Machine Learning</strong>.

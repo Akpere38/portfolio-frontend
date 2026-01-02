@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 export default function MyNavbar() {
   return (
     <Navbar bg="light" expand="lg" fixed="top" className="px-3 shadow-sm">
-      <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
+      <Navbar.Brand href="/">Raphael Akpere</Navbar.Brand>
 
       <Navbar.Toggle />
       <Navbar.Collapse>

@@ -24,7 +24,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero-subtitle mt-3">
-          Data Analyst • Backend Developer • Aspiring Full Stack Developer
+           Data Analyst • Entry Level Backend Developer 
         </p>
 
         <Button href="#projects" className="hero-cta mt-4">

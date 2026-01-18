@@ -5,6 +5,7 @@ import NoShowImage from '../assets/images/hospital no show.png';
 import EmployeeAttritionImage from '../assets/images/ChatGPT Image Jan 2, 2026, 07_48_31 AM.png';
 import SanmartinsImage from '../assets/images/San martins store.png'
 import MediterraneanCameraImage from '../assets/images/camera co.png';
+import EtherumWalletExplorerImage from '../assets/images/wallet_explore2.jpg';
 
 
 // import MeetingSummarizerImage from '../assets/projects/meeting_summarizer.png';
@@ -12,7 +13,16 @@ import MediterraneanCameraImage from '../assets/images/camera co.png';
 // Hard-coded projects array
 const projectsData = [
   {
-    id: 1,
+  id: 1,
+  title: "Web3 Portfolio - Ethereum Wallet Explorer",
+  description: "Full-stack Web3 application that displays comprehensive Ethereum wallet data including ETH/token balances, NFT collections with images, and transaction history. Backend built with FastAPI and Web3.py integrates Alchemy, Etherscan, and CoinGecko APIs. Frontend features a modern React interface with Tailwind CSS for responsive design and real-time blockchain data visualization.",
+  image: EtherumWalletExplorerImage,
+  code_url: "https://github.com/Akpere38/Ethereum-Portfolio-Tracker",
+  demo_url: "https://ethereum-portfolio-tracker.vercel.app/",
+
+  },
+  {
+    id: 2,
     title: "Heart Failure Prediction App",
     description: "A Streamlit-based machine learning application designed to predict a patient’s risk of heart failure using clinical and demographic data. The app allows users to input patient information and receive a risk prediction with probability scores, helping translate complex model outputs into clear, actionable insights.",
     image: HeartfailureImage,
@@ -20,7 +30,7 @@ const projectsData = [
     demo_url: "https://heart-failure-prediction-akpere38.streamlit.app/"
   },
   {
-    id: 2,
+    id: 3,
     title: "Patient No-Show Predictor",
     description: "A machine learning project focused on predicting hospital appointment no-shows to help healthcare providers reduce missed appointments and improve operational efficiency. The model analyzes patient demographics, appointment details, and scheduling patterns to estimate the likelihood of a patient failing to attend a scheduled visit.",
     image: NoShowImage,
@@ -28,7 +38,7 @@ const projectsData = [
     demo_url: "https://patient-no-show-predictor-akpere38.streamlit.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Employee Attrition Dashboard",
     description: "A Streamlit-based interactive dashboard built to predict employee attrition using machine learning and to support data-driven HR decision-making. The application enables users to explore workforce data, generate attrition risk predictions, and understand the key factors influencing employee turnover.",
     image: EmployeeAttritionImage,
@@ -36,7 +46,7 @@ const projectsData = [
     demo_url: "https://employee-attrition-dashboard-akpere38.streamlit.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "San Martin’s Stores Analysis",
     description: "The dashboard explores key metrics such as total sales, revenue trends, store performance, and product-level analysis. Interactive visuals allow users to drill down by time period, store location, and product categories, helping identify high-performing stores and underperforming segments.",
     image: SanmartinsImage,
@@ -44,7 +54,7 @@ const projectsData = [
     demo_url: ""
     },
     {
-      id: 5,
+      id: 6,
       title: "Mediterranean Camera Co. Analysis",
       description: "This dashboard provides insights into sales performance, customer demographics, and product trends for Mediterranean Camera Co. Users can explore interactive charts and graphs to analyze sales by region, product category, and time period, helping identify growth opportunities and optimize marketing strategies.",
       image: MediterraneanCameraImage,

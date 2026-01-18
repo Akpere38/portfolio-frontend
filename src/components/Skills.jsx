@@ -9,6 +9,7 @@ import JavascriptIcon from "../assets/icons/javascript-svgrepo-com.svg";
 import PandasIcon from "../assets/icons/pandas-svgrepo-com.svg";
 import GitIcon from "../assets/icons/git-icon-svgrepo-com.svg";
 import DockerIcon from "../assets/icons/docker-svgrepo-com.svg";
+import FastApiIcon from "../assets/icons/fastapi-svgrepo-com.svg";
 
 // Hard-coded skills data
 const skillsData = [
@@ -26,6 +27,11 @@ const skillsData = [
     id: 3 ,
     name: "Django",
     icon: DjangoIcon,
+  },
+  {
+    id: 11 ,
+    name: "FastAPI",
+    icon: FastApiIcon,
   },
   {
     id: 4,
